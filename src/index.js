@@ -23,7 +23,11 @@ for (let i = 0; i < 200; i++) {
 const App = () => (
   <div className="app">
     <DisplayBox>
-      <TagSet tags={tags} />
+      <TagSet tags={tags}
+      allTagsModalSearchLabel="Filter tags"
+      allTagsModalTile="All tags"
+      allTagsModalSearchPlaceholderText="Filter tags"
+      showAllTagsLabel="Show all tags" />
     </DisplayBox>
   </div>
 );

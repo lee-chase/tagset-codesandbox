@@ -4,10 +4,13 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  --content-width: 50%;
 }
 
 .display-box__content {
-  box-shadow: 1px dashed  $text-01;
+  width: var(--content-width);
+  margin-top: 50px;
+  border: 1px dashed $text-01;
 }
 
 .display-box__slider {
