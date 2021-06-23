@@ -1,0 +1,11 @@
+@import './carbon';
+
+$pkg-prefix: 'txt' !default;
+@import './ibm-cloud-and-cognitive.scss';
+
+.app {
+  display: flex;
+  justify-content: flex-start;
+  padding: 50px;
+}
+
